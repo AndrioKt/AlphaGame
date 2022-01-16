@@ -17,10 +17,6 @@ fun Event(player: Player){
         while (ent!="")
         ent = readLine()!!
     }
-/*fun RandomEvent(player: Player){
-    val EventsArr = arrayOf(Event_nothing(player),Event_RustySword(player))
-    EventsArr[(Math.random()*EventsArr.size).toInt()]
-}*/
 
 fun Event_nothing(){
     println("It's a calm and warm day, you are walk forward, and it's seems like nothing couldn't disturb you, but... ")
